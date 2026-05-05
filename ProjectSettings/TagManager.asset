@@ -4,12 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - FishSpawn
+  - TrackFloor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TrackFloor
   - Water
   - UI
   - 
