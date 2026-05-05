@@ -49,10 +49,11 @@ public class RaceManager : NetworkBehaviour
 
     private void Update()
     {
-        if (!IsServer || !RaceStarted.Value || RaceFinished.Value) return;
+        if (!IsSpawned || !IsServer || !RaceStarted.Value || RaceFinished.Value) return;
         RaceTime.Value += Time.deltaTime;
         UpdatePositions();
     }
+
 
     #endregion
 
