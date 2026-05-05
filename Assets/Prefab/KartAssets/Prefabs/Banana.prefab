@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4514586546785665374}
   - component: {fileID: 2457972499612926009}
   - component: {fileID: 3278117508586730049}
+  - component: {fileID: 5683063111411095044}
   m_Layer: 0
   m_Name: Banana
   m_TagString: Untagged
@@ -125,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 1430479778
+  GlobalObjectIdHash: 579205901
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -138,3 +139,17 @@ MonoBehaviour:
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
+--- !u!114 &5683063111411095044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6461784740964524360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47fc06e1dded41f4e99c703cd0ea7061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BananaItem
+  ShowTopMostFoldoutHeaderGroup: 1
+  spinSpeed: 60

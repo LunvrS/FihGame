@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2844907510682918087}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BackSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4285576888058321223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FrontSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,9 +78,9 @@ GameObject:
   - component: {fileID: 1822968958151523340}
   - component: {fileID: 9100342445703788548}
   - component: {fileID: 6937645048004651121}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Kart
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 2890732580
+  GlobalObjectIdHash: 3785528437
   InScenePlacedSourceGlobalObjectIdHash: 3407576463
   DeferredDespawnTick: 0
   Ownership: 1
@@ -253,7 +253,7 @@ MonoBehaviour:
   frontSpawnPoint: {fileID: 4285576888058321223}
   rearSpawnPoint: {fileID: 2844907510682918087}
   shellPrefab: {fileID: 1525979941809387698, guid: 1a1680fcdd4ef64479d20f969c6a0af6, type: 3}
-  bananaPrefab: {fileID: 6461784740964524360, guid: 431e98503b503294ab56407b01551df8, type: 3}
+  bananaPrefab: {fileID: 6461784740964524360, guid: da25d7ba99473a140bb812ece295c2dc, type: 3}
 --- !u!114 &6937645048004651121
 MonoBehaviour:
   m_ObjectHideFlags: 0
